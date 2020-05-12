@@ -8,7 +8,9 @@
     "gulp-minify": "^3.1.0",
     "gulp-rename": "^2.0.0",
     "jest": "^26.0.1",
-    "jest-cli": "^26.0.1"
+    "jest-cli": "^26.0.1",
+    "minimist": "^1.2.5",
+    "shell-quote": "^1.7.2"
   },
   "name": "localized-soundcloud",
   "description": "💬 Userscript that allows you to translate SoundCloud using MutationObserver API.",
