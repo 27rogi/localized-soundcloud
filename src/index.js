@@ -11,6 +11,7 @@
 // @updateURL    https://github.com/Voknehzyr/localized-soundcloud/raw/master/dist/localized-soundcloud.user.js
 // @downloadURL  https://github.com/Voknehzyr/localized-soundcloud/raw/master/dist/localized-soundcloud.user.js
 // @homepageURL  https://github.com/Voknehzyr/localized-soundcloud
+// @license      MIT
 // ==/UserScript==
 
 (function() {
