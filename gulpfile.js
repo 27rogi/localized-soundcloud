@@ -16,7 +16,7 @@ function compile(cb) {
       noSource: true,
       preserveComments: "all"
     }))
-    .pipe(rename("localized-soundcloud.js"))
+    .pipe(rename("localized-soundcloud.user.js"))
     .pipe(dest('dist/'));
 }
 exports.default = compile
