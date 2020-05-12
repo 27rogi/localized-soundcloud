@@ -1,20 +1,30 @@
 // ==UserScript==
-// @name         Russian Localized SoundCloud
+// @name         Localized SoundCloud
 // @namespace    *://soundcloud.com/*
-// @version      0.1
-// @description  Translates SoundCloud elements on Russian language using MutationObserver technology.
+// @version      1.1.0
+// @description  Userscript that allows you to translate SoundCloud using MutationObserver API.
 // @author       Voknehzyr
 // @run-at       document-start
 // @match        *://soundcloud.com/*
 // @grant        none
 // @icon         https://img.icons8.com/cotton/64/000000/soundcloud.png
+// @updateURL    https://github.com/Voknehzyr/localized-soundcloud/raw/master/dist/localized-soundcloud.user.js
+// @downloadURL  https://github.com/Voknehzyr/localized-soundcloud/raw/master/dist/localized-soundcloud.user.js
+// @homepageURL  https://github.com/Voknehzyr/localized-soundcloud
 // ==/UserScript==
 
 (function() {
     'use strict';
 
     // List of all translations in format <selector>:<translation>.
-    let translations = require('../src/locale/ru.json');
+    const translations = {
+        'ru': require('../src/locale/ru.json'),
+    };
+
+    let locale = 'ru';
+    if (translations[(navigator.language || navigator.userLanguage).split("_")[0].toLowerCase()]) {
+        locale = (navigator.language || navigator.userLanguage).split("_")[0].toLowerCase();
+    }
 
     const languageUtils = {
         // Translates found targets in provided element.
@@ -27,7 +37,7 @@
             // Select all elements that match the target and
             // find translations for each from `translations` variable.
             elem.querySelectorAll(target).forEach((node) => {
-                node.textContent = translations[target];
+                node.textContent = translations[locale][target];
             });
 
             observer.observe();
@@ -39,7 +49,7 @@
         observer: new MutationObserver(mutationRecords => {
           mutationRecords.forEach((record) => {
               // Search for translation for every selector in `translations`.
-              Object.keys(translations).forEach((target) => {
+              Object.keys(translations[locale]).forEach((target) => {
                   languageUtils.translate(record.target, target);
               });
           });
