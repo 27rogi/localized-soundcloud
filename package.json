@@ -14,7 +14,7 @@
   },
   "name": "localized-soundcloud",
   "description": "💬 Userscript that allows you to translate SoundCloud using MutationObserver API.",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "main": "build.js",
   "devDependencies": {
     "gulp": "^4.0.2",

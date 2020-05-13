@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Localized SoundCloud
 // @namespace    *://soundcloud.com/*
-// @version      1.1.0
+// @version      1.1.1
 // @description  Userscript that allows you to translate SoundCloud using MutationObserver API.
 // @author       Voknehzyr
 // @run-at       document-start
