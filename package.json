@@ -22,6 +22,7 @@
     "jshint": "^2.11.0"
   },
   "scripts": {
+    "build": "gulp",
     "test": "jest"
   },
   "keywords": [

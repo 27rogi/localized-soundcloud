@@ -1,58 +1,116 @@
 {
-    ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(1) a": "Все",
-    ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(2) a": "Популярные треки",
-    ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(3) a": "Треки",
-    ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(4) a": "Альбомы",
-    ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(5) a": "Плейлисты",
-    ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(6) a": "Репосты",
-    ".sc-button-follow": "Подписаться",
-    ".profileMenu__likes": "Лайки",
-    ".profileMenu__profile": "Профиль",
-    ".profileMenu__stations": "Станции",
-    ".profileMenu__following": "Подписки",
-    ".profileMenu__friends": "Рекомендации",
-    ".profileMenu__premium": "Стать Про",
-    ".profileMenu__trackManager": "Треки",
-    ".uploadButton__title": "Загрузить",
-    ".header__navMenuItem[href='/discover']": "Главная",
-    ".header__navMenuItem[href='/stream']": "Стрим",
-    ".header__navMenuItem[href='/you/library']": "Библиотека",
-    ".moreMenu__link[href='/pages/contact']": "О нас",
-    ".moreMenu__link[href='/terms-of-use']": "Правила сервиса",
-    ".moreMenu__link[href='/pages/copyright']": "Копирайт",
-    ".moreMenu__link[href='/settings']": "Настройки",
-    ".moreMenu__link[href='/logout']": "Выйти",
-    ".profileHeader__headerImageEditChooser": "Загрузить изображение",
-    ".headerImageEditDropdown__button": "Заменить изображение",
-    ".headerImageEditDropdown__button[name='delete']": "Удалить изображение",
-    ".mixedModularHome__item:nth-child(1) .mixedSelectionModule .mixedSelectionModule__titleText": "Недельный SoundCloud",
-    ".mixedModularHome__item:nth-child(1) .mixedSelectionModule .mixedSelectionModule__description": "Все из SoundCloud. Только для вас",
-    ".mixedModularHome__item:nth-child(2) .mixedSelectionModule .mixedSelectionModule__titleText": "Больше того, что вам нравится",
-    ".mixedModularHome__item:nth-child(2) .mixedSelectionModule .mixedSelectionModule__description": "Предложения на основе того, что вам понравилось",
-    ".mixedModularHome__item:nth-child(3) .mixedSelectionModule .mixedSelectionModule__titleText": "Загрузки",
-    ".mixedModularHome__item:nth-child(3) .mixedSelectionModule .mixedSelectionModule__description": "Новые треки. Только для вас",
-    ".mixedSelectionModule__socialProofLine span": "Основано на вашей истории прослушивания",
-    ".selectionModulePlaylistLink .sc-button": "Перейти в плейлист",
-    ".sidebarHeader .sidebarHeader__more": "Смотреть все",
-    ".whoToFollowModule .sidebarHeader__actualTitle": "Кого слушать",
-    ".whoToFollowModule .sidebarHeader__more": "Обновить",
-    ".notifications__viewAll": "Просмотреть все уведомления",
-    ".collectionNav.g-tabs .g-tabs-item:nth-child(1) .g-tabs-link": "Обзор",
-    ".collectionNav.g-tabs .g-tabs-item:nth-child(2) .g-tabs-link": "Понравившееся",
-    ".collectionNav.g-tabs .g-tabs-item:nth-child(3) .g-tabs-link": "Плейлисты",
-    ".collectionNav.g-tabs .g-tabs-item:nth-child(4) .g-tabs-link": "Альбомы",
-    ".collectionNav.g-tabs .g-tabs-item:nth-child(5) .g-tabs-link": "Станции",
-    ".collectionNav.g-tabs .g-tabs-item:nth-child(6) .g-tabs-link": "Подписки",
-    ".collectionNav.g-tabs .g-tabs-item:nth-child(7) .g-tabs-link": "История",
-    ".sc-button-like[aria-label='Unlike']": "Понравилось",
-    ".sc-button-like[aria-label='Like']": "Нравится",
-    ".sc-button-repost[aria-label='Repost']": "Поделится",
-    ".sc-button-repost[aria-label='Unpost']": "Поделились",
-    ".sc-button-startstation": "Станция",
-    ".sc-button-share": "Отправить",
-    ".infoStats__stat:nth-child(1) .infoStats__title": "Подписчики",
-    ".infoStats__stat:nth-child(2) .infoStats__title": "Подписки",
-    ".infoStats__stat:nth-child(3) .infoStats__title": "Треки",
-    ".truncatedUserDescription__collapse": "Показать меньше",
-    ".truncatedUserDescription__collapse.collapsed": "Показать больше",
+  ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(1) a": "Все",
+  ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(2) a": "Популярные треки",
+  ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(3) a": "Треки",
+  ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(4) a": "Альбомы",
+  ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(5) a": "Плейлисты",
+  ".userInfoBar__tabs .profileTabs .g-tabs-item:nth-child(6) a": "Репосты",
+  ".sc-button-follow": "Подписаться",
+  ".profileMenu__likes": "Лайки",
+  ".profileMenu__profile": "Профиль",
+  ".profileMenu__stations": "Станции",
+  ".profileMenu__following": "Подписки",
+  ".profileMenu__friends": "Рекомендации",
+  ".profileMenu__premium": "Стать Про",
+  ".profileMenu__trackManager": "Треки",
+  ".uploadButton__title": "Загрузить",
+  ".header__navMenuItem[href='/discover']": "Главная",
+  ".header__navMenuItem[href='/stream']": "Стрим",
+  ".header__navMenuItem[href='/you/library']": "Библиотека",
+  ".moreMenu__link[href='/pages/contact']": "О нас",
+  ".moreMenu__link[href='/terms-of-use']": "Правила сервиса",
+  ".moreMenu__link[href='/pages/copyright']": "Копирайт",
+  ".moreMenu__link[href='/settings']": "Настройки",
+  ".moreMenu__link[href='/logout']": "Выйти",
+  ".profileHeader__headerImageEditChooser": "Загрузить изображение",
+  ".headerImageEditDropdown__button": "Заменить изображение",
+  ".headerImageEditDropdown__button[name='delete']": "Удалить изображение",
+  ".mixedModularHome__item:nth-child(1) .mixedSelectionModule .mixedSelectionModule__titleText": "Недельный SoundCloud",
+  ".mixedModularHome__item:nth-child(1) .mixedSelectionModule .mixedSelectionModule__description": "Все из SoundCloud. Только для вас",
+  ".mixedModularHome__item:nth-child(2) .mixedSelectionModule .mixedSelectionModule__titleText": "Больше того, что вам нравится",
+  ".mixedModularHome__item:nth-child(2) .mixedSelectionModule .mixedSelectionModule__description": "Предложения на основе того, что вам понравилось",
+  ".mixedModularHome__item:nth-child(3) .mixedSelectionModule .mixedSelectionModule__titleText": "Загрузки",
+  ".mixedModularHome__item:nth-child(3) .mixedSelectionModule .mixedSelectionModule__description": "Новые треки. Только для вас",
+  ".mixedSelectionModule__socialProofLine span": "Основано на вашей истории прослушивания",
+  ".selectionModulePlaylistLink .sc-button": "Перейти в плейлист",
+  ".sidebarHeader .sidebarHeader__more": "Смотреть все",
+  ".whoToFollowModule .sidebarHeader__actualTitle": "Кого слушать",
+  ".whoToFollowModule .sidebarHeader__more": "Обновить",
+  ".historyModule .sidebarHeader__actualTitle": "История прослушивания",
+  ".relatedArtistsModule .sidebarHeader__actualTitle": "Фанатам также нравится",
+  ".followersModule .sidebarHeader__actualTitle": [
+    {
+      "regexp": "(followers|follower)",
+      "translation": "подписчиков"
+    }
+  ],
+  ".followingsModule .sidebarHeader__actualTitle": [
+    {
+      "regexp": "(following)",
+      "translation": "подписок"
+    }
+  ],
+  ".likesModule .sidebarHeader__actualTitle": [
+    {
+      "regexp": "(likes)",
+      "translation": "лайков"
+    }
+  ],
+  ".commentsModule .sidebarHeader__actualTitle": [
+    {
+      "regexp": "(comments|comment)",
+      "translation": "комментариев"
+    }
+  ],
+  ".notifications__viewAll": "Просмотреть все уведомления",
+  ".collectionNav.g-tabs .g-tabs-item:nth-child(1) .g-tabs-link": "Обзор",
+  ".collectionNav.g-tabs .g-tabs-item:nth-child(2) .g-tabs-link": "Понравившееся",
+  ".collectionNav.g-tabs .g-tabs-item:nth-child(3) .g-tabs-link": "Плейлисты",
+  ".collectionNav.g-tabs .g-tabs-item:nth-child(4) .g-tabs-link": "Альбомы",
+  ".collectionNav.g-tabs .g-tabs-item:nth-child(5) .g-tabs-link": "Станции",
+  ".collectionNav.g-tabs .g-tabs-item:nth-child(6) .g-tabs-link": "Подписки",
+  ".collectionNav.g-tabs .g-tabs-item:nth-child(7) .g-tabs-link": "История",
+  ".sc-button-like[aria-label='Unlike']": [
+    {
+      "regexp": "(Liked)",
+      "translation": "Понравилось"
+    }
+  ],
+  ".sc-button-like[aria-label='Like']": [
+    {
+      "regexp": "(Likes|Like)",
+      "translation": "Нравится"
+    }
+  ],
+  ".sc-button-repost[aria-label='Repost']": "Поделится",
+  ".sc-button-repost[aria-label='Unpost']": "Поделились",
+  ".sc-button-startstation": "Станция",
+  ".sc-button-share": "Отправить",
+  ".sc-button-more": "Больше",
+  ".sc-button-queue": "Добавить следующим",
+  ".sc-button-addtoset": "Добавить в плейлист",
+  ".infoStats__stat:nth-child(1) .infoStats__title": "Подписчики",
+  ".infoStats__stat:nth-child(2) .infoStats__title": "Подписки",
+  ".infoStats__stat:nth-child(3) .infoStats__title": "Треки",
+  ".truncatedUserDescription__collapse": "Показать меньше",
+  ".truncatedUserDescription__collapse.collapsed": "Показать больше",
+  ".stream .stream__title": "Услыште последние записи от людей, на которых вы подписаны:",
+  ".soundContext__line": [
+    {
+      "regexp": "(a track)",
+      "translation": "трек"
+    },
+    {
+      "regexp": "(reposted)",
+      "translation": "репостнул"
+    },
+    {
+      "regexp": "(posted)",
+      "translation": "опубликовал"
+    },
+    {
+      "regexp": "(a playlist)",
+      "translation": "плейлист"
+    }
+  ]
 }
